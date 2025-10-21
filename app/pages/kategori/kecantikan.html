@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kecantikan di Nymphaea Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&family=Material+Icons+Outlined&family=Material+Icons+Round&family=Material+Icons+Sharp&family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <script src="../../scripts/landing.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left-menu">
+            <h1 class="logo">Nymphaea Store</h1>
+            <nav class="navbar-menu-container">
+                <a href="../index.html">Home</a>
+                <a href="../contact.html">Contact</a>
+                <a href="../about.html">About</a>
+            </nav>
+        </div>
+        <a class="navbar-right-menu" href="../keranjang.html">
+            <span class="material-icons-outlined">
+                shopping_cart
+            </span>
+        </a>
+    </header>
+    <div class="section-container">
+        <div class="section-title">
+            <div class="red-box"></div>
+            <h2 class="section-title-content">Kecantikan</h2>
+        </div>
+        
+        <div class="container-fluid mx-auto">
+            <div class="row g-4 justify-content-center"> 
+                
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-1.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Hair Oil</h3>
+                            <span class="product-price price">Rp 40.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined">star</span>
+                                <span class="material-icons-outlined">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-2.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Serum Wajah Anti Aging</h3>
+                            <span class="product-price price">Rp 195.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-3.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Lipstik Matte Tahan Lama</h3>
+                            <span class="product-price price">Rp 85.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined">star</span>
+                                <span class="material-icons-outlined">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-4.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Maui Moisture - Thickens </h3>
+                            <span class="product-price price">Rp 165.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-5.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Nude by Nature - Mineral Powder</h3>
+                            <span class="product-price price">Rp 145.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined">star</span>
+                                <span class="material-icons-outlined">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-6.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">EARTH - Cold-Pressed Juice</h3>
+                            <span class="product-price price">Rp 125.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-7.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Miss Dior - Eau de Toilette</h3>
+                            <span class="product-price price">Rp 895.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <section class="product-item">
+                        <img src="../../../assets/products/cosmetics/skincare-8.jpg" alt="product image">
+                        <div class="flex-col gap-1 w-full" style="padding: 0.5rem;">
+                            <h3 class="product-name">Stockholms Bränneri - Dry Gin</h3>
+                            <span class="product-price price">Rp 195.000</span>
+                            <div class="product-rating">
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                                <span class="material-icons-outlined red">star</span>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center"> 
+                                <button class="outline-btn w-full" onclick="onProductClick(this)">Lihat produk</button>
+                                <span class="material-icons-outlined" onclick="addToCart(this)">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                
+            </div>
+        </div>
+        </div>
+    
+    <footer class="footer">
+        <div class="logo-container">
+            <h2 class="logo">Nymphaea Store</h2>
+        </div>
+        <div class="flex-col gap-1">
+            <h5>Sitemap</h5>
+            <a href="../index.html" style="cursor: pointer;">Home</a>
+            <a href="../contact.html" style="cursor: pointer;">Contact</a>
+            <a href="../about.html" style="cursor: pointer;">About</a>
+        </div>
+        <div class="flex-col gap-1">
+            <h5>Kategori</h5>
+            <a href="./tas.html" style="cursor: pointer;">Tas</a>
+            <a href="./kecantikan.html" style="cursor: pointer;">Kecantikan</a>
+            <a href="./sepatu.html" style="cursor: pointer;">Sepatu</a>
+            <a href="./jam-tangan.html" style="cursor: pointer;">Jam Tangan</a>
+            <a href="./hp-dan-tablet.html" style="cursor: pointer;">HP & Tablet</a>
+            <a href="./komputer.html" style="cursor: pointer;">Komputer</a>
+            <a href="./headset.html" style="cursor: pointer;">Headset</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

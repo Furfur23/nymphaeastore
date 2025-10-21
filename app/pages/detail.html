@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <title>Nymphaea Store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons&family=Material+Icons+Outlined&family=Material+Icons+Round&family=Material+Icons+Sharp&family=Material+Icons+Two+Tone" rel="stylesheet" />
+        <link rel="stylesheet" href="../styles/global.css" />
+        <link rel="stylesheet" href="../styles/detail.css" />
+        <script src="../scripts/detail.js"></script>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar-left-menu">
+                <h1 class="logo">Nymphaea Store</h1>
+                <nav class="navbar-menu-container">
+                    <a href="./index.html">Home</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./about.html">About</a>
+                </nav>
+            </div>
+            <a class="navbar-right-menu" href="./keranjang.html">
+                <span class="material-icons-outlined">
+                    shopping_cart
+                </span>
+            </a>
+        </header>
+
+        <div class="flex-row detail-container gap-1">
+            <div class="main-product-image-container">
+                <img src="" alt="product image" class="main-product-image" id="product-image" />
+            </div>
+            <div class="main-product-info-container">
+                <h1 id="product-name"></h1>
+                <div class="flex-row gap-1 align-center" id="product-rating">
+                </div>
+                <h3 id="product-price"></h3>
+                <hr />
+                <div class="flex-row align-center gap-1">
+                    <button class="secondary-btn secondary-btn-small-padding" onclick="decrementCounter()">-</button>
+                    <span class="counter-value" id="counter">1</span>
+                    <button class="secondary-btn secondary-btn-small-padding" onclick="incrementCounter()">+</button>
+                    <button class="contain-btn" onclick="addToCart()">Tambah ke Keranjang</button>
+                </div>
+                <div class="flex-row align-center product-benefit gap-1">
+                    <span class="material-icons-outlined">
+                        local_shipping
+                    </span>
+                    <div class="flex-col">
+                        <h4>Gratis Ongkir</h4>
+                        <p>gratis ongkir kemana saja dan kapapun kalian berada</p>
+                    </div>
+                </div>
+                <div class="flex-row align-center product-benefit gap-1">
+                    <span class="material-icons-outlined">
+                        verified_user
+                    </span>
+                    <div class="flex-col">
+                        <h4>Dijamin ori</h4>
+                        <p>pasti ori kalau tidak bisa di refund</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <footer class="footer">
+            <div class="logo-container">
+                <h2 class="logo">Nymphaea Store</h2>
+            </div>
+            <div class="flex-col gap-1">
+                <h5>Sitemap</h5>
+                <a href="./index.html" style="cursor: pointer;">Home</a>
+                <a href="./contact.html" style="cursor: pointer;">Contact</a>
+                <a href="./about.html" style="cursor: pointer;">About</a>
+            </div>
+            <div class="flex-col gap-1">
+                <h5>Kategori</h5>
+                <a href="./kategori/tas.html" style="cursor: pointer;">Tas</a>
+                <a href="./kategori/kecantikan.html" style="cursor: pointer;">Kecantikan</a>
+                <a href="./kategori/sepatu.html" style="cursor: pointer;">Sepatu</a>
+                <a href="./kategori/jam-tangan.html" style="cursor: pointer;">Jam Tangan</a>
+                <a href="./kategori/hp-dan-tablet.html" style="cursor: pointer;">HP & Tablet</a>
+                <a href="./kategori/komputer.html" style="cursor: pointer;">Komputer</a>
+                <a href="./kategori/headset.html" style="cursor: pointer;">Headset</a>
+            </div>
+         </footer>
+    </body>
+</html>
