@@ -1,16 +1,15 @@
 # Nymphaea Store
 
-#🛍️ Proyek Mandiri Pengembangan Web Berbasis Platform 2025/2026 Ganjil
+🛍️ Proyek Mandiri Pengembangan Web Berbasis Platform 2025/2026 Ganjil
 Nymphaea Store adalah sebuah proyek website toko online (e-commerce) statis yang dikembangkan secara individu. Proyek ini dibuat sebagai implementasi dari materi HTML, CSS (Native dan Framework Bootstrap), dan JavaScript dasar dalam mata kuliah Pengembangan Web Berbasis Platform (PBP).
 
 Website ini menampilkan berbagai macam produk dan dirancang agar terlihat clean serta memiliki interaksi dasar khas toko online.
 
-##Fitur dan Interaktivitas
+Fitur dan Interaktivitas
 Proyek ini memiliki struktur halaman yang luas dan beberapa fungsionalitas interaktif yang dibangun dengan JavaScript:
 
-##Sturktur Halaman
+Sturktur Halaman
 Website ini terdiri dari banyak halaman yang saling terhubung:
-
 Halaman Utama: index.html
 Halaman Informasi: about.html dan contact.html
 Halaman Fungsional: detail.html (Detail Produk) dan keranjang.html (Keranjang Belanja)
