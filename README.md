@@ -23,6 +23,19 @@ Detail Produk Dinamis: Informasi produk (nama, harga, gambar) dikirim melalui UR
 Formulir Kontak: Dilengkapi dengan validasi input dan simulasi proses pengiriman pesan (loading dan alert sukses).
 
 📸 Tampilan Website
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/homepage.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/kategoriproduk.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/eksplorproduk.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/detailproduk.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/contactproduk.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/aboutproduk.png?raw=true)
+
+![alt text](https://github.com/Furfur23/nymphaeastore/blob/main/keranjang.png?raw=true)
 
 
 🎥 Dokumentasi Video
