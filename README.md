@@ -17,5 +17,13 @@ Halaman Kategori Produk (7 jenis): Menampilkan produk yang dikelompokkan (misaln
 
 Interaktivitas 
 Keranjang Belanja (Simulasi): Menggunakan Local Storage untuk menyimpan dan menampilkan item yang ditambahkan ke keranjang. Fungsionalitas hapus item dan simulasi checkout ke WhatsApp tersedia. (cart.js)
+
 Detail Produk Dinamis: Informasi produk (nama, harga, gambar) dikirim melalui URL saat produk diklik, dan ditampilkan di halaman detail.html. Dilengkapi tombol penambah/pengurang kuantitas produk. (detail.js)
+
 Formulir Kontak: Dilengkapi dengan validasi input dan simulasi proses pengiriman pesan (loading dan alert sukses).
+
+📸 Tampilan Website
+
+
+🎥 Dokumentasi Video
+Tautan Video YouTube: 
