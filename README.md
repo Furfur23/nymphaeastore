@@ -40,4 +40,4 @@ Formulir Kontak: Dilengkapi dengan validasi input dan simulasi proses pengiriman
 
 🎥 Dokumentasi Video
 
-[](https://youtu.be/XxBH2TvC6AM)
+[Tautan Vide Bisa Diklik](https://youtu.be/XxBH2TvC6AM)
