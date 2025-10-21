@@ -39,4 +39,4 @@ Formulir Kontak: Dilengkapi dengan validasi input dan simulasi proses pengiriman
 
 
 🎥 Dokumentasi Video
-[![Tautan Video YouTube](https://github.com/Furfur23/nymphaeastore/blob/main/homepage.png?raw=true)](https://youtu.be/XxBH2TvC6AM)
+[!Tautan Video YouTube Bisa Diklik](https://youtu.be/XxBH2TvC6AM)
